@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#2196F3"
+    android:layout_height="match_parent"
+    tools:context="g.efirebase.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:background="@color/cardview_light_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="center"
+        android:textColor="#FF9800"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="65dp"
+        android:src="@drawable/signupp"/>
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="227dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="20dp"
+        android:hint="name"
+        android:layout_gravity="center"
+        android:background="@color/cardview_light_background"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <EditText
+        android:layout_width="227dp"
+        android:id="@+id/etEmail"
+        android:layout_height="46dp"
+        android:background="@color/cardview_light_background"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        tools:layout_editor_absoluteY="125dp"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="86dp"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:layout_width="227dp"
+        android:id="@+id/etPassword"
+        android:layout_height="46dp"
+        tools:layout_editor_absoluteY="190dp"
+        android:hint="password"
+        android:layout_marginTop="5dp"
+        android:background="@color/cardview_light_background"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="86dp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup"
+        android:text="Sign up"
+        android:layout_marginTop="20dp"
+        android:background="#FF9800"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteY="269dp"
+        tools:layout_editor_absoluteX="225dp"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>

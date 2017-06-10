@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/about"
+        android:title="About" />
+    <item
+        android:id="@+id/addstory"
+        android:icon="@drawable/addstory"
+        android:orderInCategory="100"
+        android:title="Add Story"
+         />
+    <item
+        android:id="@+id/destroystory"
+        android:orderInCategory="100"
+        android:title="Destroy Story"
+        />
+    <item android:id="@+id/viewstory"
+        android:title="See Story"
+        />
+
+</menu>
